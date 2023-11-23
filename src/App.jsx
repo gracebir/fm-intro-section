@@ -1,11 +1,14 @@
 /** @format */
 
 import React from "react";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
 
 const App = () => {
     return (
         <div className='font-poppins h-screen'>
-            <h1>hello</h1>
+            <Header />
+            <Hero />
         </div>
     );
 };

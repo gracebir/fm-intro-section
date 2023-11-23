@@ -10,7 +10,15 @@ export default {
             fontFamily: {
                 poppins: ["Epilogue", "sans-serif"],
             },
+            colors: {
+                "almost-white": "var(--almost-white)",
+                "medium-gray": "var(--medium-gray)",
+                "almost-black": "var(--almost-black)",
+            },
         },
+    },
+    variants: {
+        display: ["group-hover"],
     },
     plugins: [],
 };
