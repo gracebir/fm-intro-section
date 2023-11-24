@@ -9,3 +9,7 @@
         --almost-black: hsl(0, 0%, 8%);
     }
 }
+
+.mob-header{
+    height: 100dvh;
+}
