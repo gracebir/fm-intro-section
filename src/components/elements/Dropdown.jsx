@@ -18,7 +18,7 @@ const Dropdown = ({ isDrop = false, items = [], text }) => {
                 )}
             </a>
             {isDrop && (
-                <div className='hidden absolute top-6 min-w-[150px] left-0 right-0 bg-almost-white shadow-2xl group-hover:flex flex-col gap-2 px-8 py-6 rounded-xl z-30'>
+                <div className='hidden absolute top-7 min-w-[165px] left-0 right-0 bg-almost-white shadow-2xl group-hover:flex flex-col gap-2 px-8 py-6 rounded-xl z-30'>
                     {items.map((item) => (
                         <a
                             href='#'
@@ -26,7 +26,11 @@ const Dropdown = ({ isDrop = false, items = [], text }) => {
                             className='flex flex-row items-center gap-3'
                         >
                             {item.hasIcon && (
-                                <img src={item.icon} alt={item.name} />
+                                <img
+                                    className='w-5'
+                                    src={item.icon}
+                                    alt={item.name}
+                                />
                             )}
                             <span className='whitespace-nowrap text-medium-gray'>
                                 {item.name}
