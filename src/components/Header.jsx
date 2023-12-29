@@ -13,7 +13,7 @@ const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <header className='py-4 px-6 lg:px-0'>
+        <header className='py-4 px-6 lg:px-8'>
             <div className='flex justify-between max-w-[1950px] mx-auto items-center'>
                 <div className='flex gap-20 items-center'>
                     <img src={logo} alt='logo' />
